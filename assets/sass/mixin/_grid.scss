@@ -9,7 +9,7 @@
 
 @mixin column ($columns, $end: false, $break: $default-column-breakpoint, $context: $total-columns) {
 	
-	display: inline-block;
+	display: block;
 	vertical-align: top;
 
 	@include media-min ($break) {

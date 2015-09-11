@@ -5,15 +5,15 @@
 
 %container {
 	@extend %is-cf;
-	width: 100% - 2*$min-page-padding;
+	width: 100%;
 	max-width: $max-container-width;
+	padding: 0 32px;
 	margin: 0 auto;
 	
 	// Responsive images, yay!
 	img {
 	    height: auto;
 		max-width: 100%;
-		height: auto !important;
 		// Removes vertical whitespace inside of container
 		vertical-align: middle;
 	}
@@ -22,6 +22,6 @@
 // Extend your own classes here to inherit container behaviour
 // or enable a global class to be used in your HTML
 
-/*.container {
+.container {
 	@extend %container;
-}*/
+}

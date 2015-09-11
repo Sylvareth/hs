@@ -37,7 +37,7 @@ textarea {
 	@extend %is-antialiased;
 	
 	&:focus {
-		background-color: transparent;
+		background-color: $white;
 	}
 }
 

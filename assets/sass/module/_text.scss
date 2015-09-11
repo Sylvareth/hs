@@ -1,13 +1,15 @@
 // Selection color ------------------------------------------------------------
 
 ::-moz-selection {
-    background: shade($white, 10);
+    background: shade($block, 10);
     text-shadow: none;
+    color: $white;
 }
 
 ::selection {
     background: $black;
     text-shadow: none;
+    color: $white;
 }
 
 // General normalizing --------------------------------------------------------
@@ -47,10 +49,4 @@ h6 {
 
 p {
 	/**/
-}
-
-// Lists ----------------------------------------------------------------------
-
-ul {
-	padding: 0 0 0 1em;
 }
